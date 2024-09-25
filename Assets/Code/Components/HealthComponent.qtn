@@ -1,0 +1,4 @@
+﻿component HealthComponent {
+    FP Health;
+    int LastUpdateTick;
+}

@@ -1,0 +1,11 @@
+component PlayerComponent {
+    player_ref PlayerRef;
+    FP MoveSpeed;
+    FP AttackRadius;
+    FP DamagePerSecond;
+    
+    FP Velocity;
+    bool IsAttacking;
+    
+    int KilledEnemies;
+}

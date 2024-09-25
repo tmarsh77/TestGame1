@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae653fa6c2fb4afc9b7750f9b1497021, type: 3}
+  m_Name: TestGameMPConfig
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: Config/TestGameMPConfig
+    Guid:
+      Value: 298746597433063728
+  Speed:
+    Id: speed
+    Value:
+      RawValue: 327680
+    MaxLevel:
+      RawValue: 1310720
+    UpgradeChance:
+      RawValue: 39322
+    UpgradeAmount:
+      RawValue: 32768
+  AttackRadius:
+    Id: radius
+    Value:
+      RawValue: 131072
+    MaxLevel:
+      RawValue: 655360
+    UpgradeChance:
+      RawValue: 6554
+    UpgradeAmount:
+      RawValue: 65536
+  DamagePerSecond:
+    Id: damage
+    Value:
+      RawValue: 655360
+    MaxLevel:
+      RawValue: 6553600
+    UpgradeChance:
+      RawValue: 19661
+    UpgradeAmount:
+      RawValue: 655360
+  EnemyPrototypes:
+  - Id:
+      Value: 1417073634331654364
+  - Id:
+      Value: 1496755460683379787
+  - Id:
+      Value: 1404451626063284848
+  InitialEnemyCount: 10
+  MapSize:
+    RawValue: 1310720
+  MaxTargets: 3
